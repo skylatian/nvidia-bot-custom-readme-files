@@ -1,4 +1,4 @@
-**###[Nvidia Sniper](https://github.com/philippnormann/nvidia-sniper) Install:###**
+**<h2>[Nvidia Sniper](https://github.com/philippnormann/nvidia-sniper) Install:<h2>**
 
 1) Install firefox normally
 2) Download [geckodriver](https://github.com/mozilla/geckodriver/releases)
@@ -6,14 +6,14 @@
 4) Download [Python 3.8.x **64bit**](https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe)
 - Save gecko and sniper in the same folder for convenience 
 
-##**Install python:**
+<h2>**Install python:**
 
 - Run installer and customize the install
 - Hit next
 - :ballot_box_with_check: check `add python to environment variables`
 - go ahead with the rest of the install
 
-###**Geckodriver install/addition to PATH**
+<h2>**Geckodriver install/addition to PATH**
 
 - unzip geckodriver, copy the directory (This should be the folder with the .exe in it, ex: `C:\Users\user\desktop\gecko\`, with the geckodriver.exe being located in folder `gecko`)
 - search in windows search `edit system environment variables`, open it
@@ -24,7 +24,7 @@
 - ok
 - ok
 
-###**Pipenv Install**
+<h2>**Pipenv Install**
 
 - Go to the directory you want to have sniper located, and type ` cd [path to location]` in command prompt.
 - Type `git clone https://github.com/philippnormann/nvidia-sniper.git`
@@ -38,19 +38,19 @@
 - Type `pipenv install windows-curses`
 - Done :white_check_mark: 
 
-###**Sniper Setup:**
+<h2>**Sniper Setup:**
 
 - Open to `customer.json` in the `nvidia-sniper/data` folder
 - **To stop firefox opening in Dutch,** Change "locale" to your own (`en-us` for USA) This is just for country, not state. Note: this is different from your country code. **ONLY CHANGE TEXT WITHIN QUOTES" "**
 - Save
 
-###**Running Sniper**
+<h2>**Running Sniper**
 
 open a command window within the `nvidia-sniper` folder (just like before with `cd c:/....`)
 - Type: `pipenv run python -m sniper`
 - Select the card to monitor, and it'll periodically refresh a webpage in Firefox checking for stock.
 
-###**Test it!**
+<h2>**Test it!**
 
 Open customer.json again: 
 
@@ -61,7 +61,7 @@ Open customer.json again:
 
 - Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
-###**Updating:**
+<h2>**Updating:**
 
 **MOVE any modifed files out of `nvidia-sniper`** (customer.json mainly) THEY WILL GET REMOVED in the update process
 
