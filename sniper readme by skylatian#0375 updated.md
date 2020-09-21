@@ -24,7 +24,7 @@ __**Geckodriver install/addition to PATH**__
 -ok
 -ok
 
-__**Pipenv install**__
+$type-size-4   __**Pipenv install**__
 
 - Go to the directory you want to have sniper located, and type ` cd [path to location]` in command prompt.
 - type `git clone https://github.com/philippnormann/nvidia-sniper.git`
@@ -38,7 +38,7 @@ __**Pipenv install**__
 - type `pipenv install windows-curses`
 - Done :white_check_mark: 
 
-__**Sniper Setup:**__
+$type-size-4   __**Sniper Setup:**__
 
 - open to `customer.json` in the `nvidia-sniper/data` folder
 - **To stop firefox opening in Dutch,** Change "locale" to your own (`en-us` for USA) This is just for country, not state. Note: this is different from your country code. **ONLY CHANGE TEXT WITHIN QUOTES" "**
