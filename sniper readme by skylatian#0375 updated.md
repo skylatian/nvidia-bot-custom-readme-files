@@ -1,12 +1,12 @@
-**__Nvidia Sniper Install:__**
+**__[Nvidia Sniper](https://github.com/philippnormann/nvidia-sniper) Install:__**
 
 1) Install firefox normally
-2) Download geckodriver https://github.com/mozilla/geckodriver/releases
-3) Install git: https://git-scm.com/download/win
-4) Download Python 3.8.x **__64bit__** https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+2) Download [geckodriver](https://github.com/mozilla/geckodriver/releases)
+3) Install [git](https://git-scm.com/download/win):
+4) Download [Python 3.8.x **__64bit__**](https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe)
 Save gecko and sniper in the same folder for convenience 
 
-__**Install python:**__
+**Install python:**
 
 - Run installer and customize the install
 - Hit next
