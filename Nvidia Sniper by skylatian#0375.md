@@ -68,7 +68,7 @@ Open customer.json again:
 
 **MOVE any modifed files out of `nvidia-sniper`**(customer.json mainly) THEY WILL GET REMOVED in the update process
 
--open cmd
--Type ` cd [path to nvidia-sniper]` ex: `cd c:/desktop/nvidia-sniper `
--Type `git pull`
--Exit the window
+- open cmd
+- Type ` cd [path to nvidia-sniper]` ex: `cd c:/desktop/nvidia-sniper `
+- Type `git pull`
+- Exit the window
