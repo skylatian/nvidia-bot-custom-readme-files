@@ -60,7 +60,7 @@ Open customer.json again:
 - Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday:
 - Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
-![](verify-order.png | width=150)
+![](verify-order.png?raw=true | width=150)
 
 ### **Updating**
 
