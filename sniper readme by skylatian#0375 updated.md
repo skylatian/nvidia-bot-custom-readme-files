@@ -27,45 +27,45 @@ __**Geckodriver install/addition to PATH**__
 __**Pipenv install**__
 
 - Go to the directory you want to have sniper located, and type ` cd [path to location]` in command prompt.
-- type `git clone https://github.com/philippnormann/nvidia-sniper.git`
-- this will create a solder called `nvidia-sniper`
-- open a command window, type:
+- Type `git clone https://github.com/philippnormann/nvidia-sniper.git`
+- This will create a solder called `nvidia-sniper`
+- Open a command window, type:
 - ` cd [path to nvidia-sniper folder]` ex: `cd c:/desktop/nvidia-sniper`
-- type `pip install pipenv`
-- wait for this to finish
-- type `pipenv install`
-- wait again
-- type `pipenv install windows-curses`
+- Type `pip install pipenv`
+- Wait for this to finish
+- Type `pipenv install`
+- Wait again
+- Type `pipenv install windows-curses`
 - Done :white_check_mark: 
 
 __**Sniper Setup:**__
 
-- open to `customer.json` in the `nvidia-sniper/data` folder
+- Open to `customer.json` in the `nvidia-sniper/data` folder
 - **To stop firefox opening in Dutch,** Change "locale" to your own (`en-us` for USA) This is just for country, not state. Note: this is different from your country code. **ONLY CHANGE TEXT WITHIN QUOTES" "**
-- save
+- Save
 
 __**Running Sniper**__ 
 
 open a command window within the `nvidia-sniper` folder (just like before with `cd c:/....`)
-- type: `pipenv run python -m sniper`
+- Type: `pipenv run python -m sniper`
 - Select the card to monitor, and it'll periodically refresh a webpage in Firefox checking for stock.
 
 __**TEST TEST TEST!!!**__ 
 
 Open customer.json again: 
 
-**ONLY CHANGE TEXT WITHIN QUOTES" "**
+**ONLY CHANGE TEXT WITHIN QUOTES " "**
 
--Put in your address. **Note:** State is not required for some reason.
--Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday: 
+- Put in your address.
+- Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday: 
 
--Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
+- Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
 __**Updating**__
 
 **__MOVE any modifed files out of `nvidia-sniper`__** (customer.json mainly) THEY WILL GET REMOVED in the update process
 
 -open cmd
--tpye ` cd [path to nvidia-sniper]` ex: `cd c:/desktop/nvidia-sniper `
--type `git pull`
--exit the window
+-Type ` cd [path to nvidia-sniper]` ex: `cd c:/desktop/nvidia-sniper `
+-Type `git pull`
+-Exit the window
