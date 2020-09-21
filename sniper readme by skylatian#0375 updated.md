@@ -8,10 +8,10 @@ Save gecko and sniper in the same folder for convenience
 
 __**Install python:**__
 
-Run installer and customize the install
--Hit next
-:ballot_box_with_check: check `add python to environment variables`
--go ahead with the rest of the install
+- Run installer and customize the install
+- Hit next
+- :ballot_box_with_check: check `add python to environment variables`
+- go ahead with the rest of the install
 
 __**Geckodriver install/addition to PATH**__
 
@@ -50,18 +50,18 @@ open a command window within the `nvidia-sniper` folder (just like before with `
 - Type: `pipenv run python -m sniper`
 - Select the card to monitor, and it'll periodically refresh a webpage in Firefox checking for stock.
 
-__**TEST TEST TEST!!!**__ 
+__**Test it!**__ 
 
 Open customer.json again: 
 
-**ONLY CHANGE TEXT WITHIN QUOTES " "**
+*ONLY CHANGE TEXT WITHIN QUOTES " "*
 
 - Put in your address.
 - Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday: 
 
 - Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
-__**Updating**__
+__**Updating:**__
 
 **__MOVE any modifed files out of `nvidia-sniper`__** (customer.json mainly) THEY WILL GET REMOVED in the update process
 
