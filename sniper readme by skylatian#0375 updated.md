@@ -1,5 +1,7 @@
 **__Nvidia Sniper Install:__**
 
+test
+
 1) install firefox normally
 2) download geckodriver https://github.com/mozilla/geckodriver/releases
 3) install git: https://git-scm.com/download/win
