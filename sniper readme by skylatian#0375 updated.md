@@ -15,14 +15,14 @@ Run installer and customize the install
 
 __**Geckodriver install/addition to PATH**__
 
--unzip geckodriver, copy the directory (This should be the folder with the .exe in it, ex: `C:\Users\user\desktop\gecko\`, with the geckodriver.exe being located in folder `gecko`)
--search in windows search `edit system environment variables`, open it
--click environment variables
--under system variables, edit the `Path` variable
--click new, paste the geckodriver directory you copied earlier
--ok
--ok
--ok
+- unzip geckodriver, copy the directory (This should be the folder with the .exe in it, ex: `C:\Users\user\desktop\gecko\`, with the geckodriver.exe being located in folder `gecko`)
+- search in windows search `edit system environment variables`, open it
+- click environment variables
+- under system variables, edit the `Path` variable
+- click new, paste the geckodriver directory you copied earlier
+- ok
+- ok
+- ok
 
 __**Pipenv install**__
 
