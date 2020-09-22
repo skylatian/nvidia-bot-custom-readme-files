@@ -26,7 +26,7 @@
 - ok
 - ok
 
-### **Pipenv Install**
+### **Sniper Download/Pipenv Install**
 
 - Go to the directory you want to have sniper located, and type ` cd [path to location]` in command prompt.
 - Type `git clone https://github.com/philippnormann/nvidia-sniper.git`
