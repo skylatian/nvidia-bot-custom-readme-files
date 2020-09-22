@@ -41,7 +41,7 @@ Open a command window within the `nvidia-sniper` folder (just like before with `
 - You need to change your info still, but test it first. Move along to the next step for some tricks.
 
 ### Adding Info
-- More info can be found [here](https://github.com/philippnormann/nvidia-sniper#configuration) at the creator's repo
+- Details on adding your personal info can be found [here](https://github.com/philippnormann/nvidia-sniper#configuration) at the creator's repo
 
 - Open customer.json again: 
 
