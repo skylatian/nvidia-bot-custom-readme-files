@@ -52,11 +52,8 @@ Open customer.json again:
 
     <img src="verify-order.png" width="600">
     
-### Shipping Speed
-The speed field can have the following values:
-- shippingOptionID2: Standard Ground
-- shippingOptionID3: Next Business day Afternoon
-- shippingOptionID4: Second Business Day Afternoon
+### Entering your information
+- more info can be found [here](https://github.com/philippnormann/nvidia-sniper#configuration) at the creator's repo
 
 ### **Updating**
 
