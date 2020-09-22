@@ -3,9 +3,8 @@
 ###### **Note:** I am not the creator of Sniper, lots of people needed instructions so I went and made some!
 
 1) Install firefox normally
-2) Download [geckodriver](https://github.com/mozilla/geckodriver/releases)
-3) Install [git](https://git-scm.com/download/win):
-4) Download [Python 3.8.x **64bit**](https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe) 
+2) Install [git](https://git-scm.com/download/win):
+3) Download [Python 3.8.x **64bit**](https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe) 
 
 ### **Install python:**
 
@@ -14,20 +13,9 @@
 - :ballot_box_with_check: check `add python to environment variables`
 - go ahead with the rest of the install
 
-### **Geckodriver install/addition to PATH**
-
-- unzip geckodriver, copy the directory (This should be the folder with the .exe in it, ex: `C:\Users\user\desktop\gecko\`, with the geckodriver.exe being located in folder `gecko`)
-- search in windows search `edit system environment variables`, open it
-- click environment variables
-- under system variables, edit the `Path` variable
-- click new, paste the geckodriver directory you copied earlier
-- ok
-- ok
-- ok
-
 ### **Sniper Download/Pipenv Install**
 
-- Go to the directory you want to have sniper located (I reccomend putting it with geckdriver for convenience), and type ` cd [path to location]` in command prompt.
+- Go to the directory you want to have sniper located and type ` cd [path to location]` in command prompt.
 - Type `git clone https://github.com/philippnormann/nvidia-sniper.git`
 - This will create a solder called `nvidia-sniper`
 - Open a command window, type:
