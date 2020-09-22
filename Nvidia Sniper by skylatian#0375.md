@@ -30,7 +30,7 @@
 ### **Sniper Setup** 
 
 - Open to `customer.json` in the `nvidia-sniper/data` folder
-- **To stop firefox opening in Dutch,** Change "locale" to your own (`en-us` for USA) This is just for country, not state. Note: this is different from your country code. **ONLY CHANGE TEXT WITHIN QUOTES" "**
+- **To stop firefox opening in Dutch,** Change "locale" to your own (`en-us` for USA) This is just for country, not state. Note: this is different from your [country code (alpha 2-code)](https://www.iban.com/country-codes) . **ONLY CHANGE TEXT WITHIN QUOTES" "**
 - Save
 
 ### **Running Sniper**
