@@ -40,21 +40,21 @@ Open a command window within the `nvidia-sniper` folder (just like before with `
 - Select the card to monitor, and it'll periodically refresh a webpage in Firefox checking for stock.
 - You need to change your info still, but test it first. Move along to the next step for some tricks.
 
-### **Test it!**
+### Adding Info
+- More info can be found [here](https://github.com/philippnormann/nvidia-sniper#configuration) at the creator's repo
 
-Open customer.json again: 
+- Open customer.json again: 
 
 *ONLY CHANGE TEXT WITHIN QUOTES " "*
 
-- Put in your address.
-- Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday:
+- Put in your address. I reccomend leaving your payment info out until you confirm everything is working smoothly.
+
+### Testing
+- Select an rtx-2060-super to make sure everything is working. Nvidia will likely suggest a modified address, use that to streamline the process (for example, they prefer `Drive` to be `Dr`). Continue to modify your address in `customer.json` until the suggestion disappears when the bot is run again. If it’s not there in the first place, congratulations, you’ve pleased the gods. Have a cake :birthday:
 - Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
     <img src="verify-order.png" width="600">
     
-### Entering your information
-- more info can be found [here](https://github.com/philippnormann/nvidia-sniper#configuration) at the creator's repo
-
 ### **Updating**
 
 **MOVE any modifed files out of `nvidia-sniper`**(customer.json mainly) THEY WILL GET REMOVED in the update process
