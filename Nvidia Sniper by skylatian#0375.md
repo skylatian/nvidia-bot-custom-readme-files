@@ -50,6 +50,12 @@ Open customer.json again:
 - Once the process gets to a screen that looks like the screenshot below without interruption, you're all set! Put your payment info in `customer.json` now and get ready for launch!
 
     <img src="verify-order.png" width="600">
+    
+### Shipping Speed
+The speed field can have the following values:
+- shippingOptionID2: Standard Ground
+- shippingOptionID3: Next Business day Afternoon
+- shippingOptionID4: Second Business Day Afternoon
 
 ### **Updating**
 
