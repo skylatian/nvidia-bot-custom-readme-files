@@ -35,7 +35,7 @@
 
 ### **Running Sniper**
 
-Open a command window within the `nvidia-sniper` folder (just like before with `cd c:/....`)
+Open a command window within the `nvidia-sniper` folder (just like before with `cd c:/....nvidia-sniper`)
 - Type: `pipenv run python -m sniper`
 - Select the card to monitor, and it'll periodically refresh a webpage in Firefox checking for stock.
 - You need to change your info still, but test it first. Move along to the next step for some tricks.
